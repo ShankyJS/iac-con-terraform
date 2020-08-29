@@ -1,0 +1,7 @@
+course/
+
+terraform.tfvars
+
+terraform.tfstate*
+
+.terraform/
