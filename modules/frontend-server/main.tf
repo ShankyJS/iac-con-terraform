@@ -3,12 +3,16 @@ variable "vm_size" {
 
 }
 
+variable "llave_ssh_fingerprint" {
+
+}
+
 resource "digitalocean_droplet" "frontend-server" {
   image       = "ubuntu-18-04-x64"
   name        = "frontend-server"
   region      = "sfo2"
   size        = var.vm_size
-  # ssh_keys    = [module.main.llave_ssh_id]
+  ssh_keys    = [var.llave_ssh_fingerprint]
   }
 
 resource "null_resource" "initial_config" {

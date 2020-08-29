@@ -17,6 +17,12 @@ variable "nombre_llave_ssh" {
   type = string
 }
 
+variable "llave_ssh_fingerprint" {
+  description = "En esta variable almacenaremos el fingerprint de la llave SSH."
+  default = "arreeeeeeeeeeeee"
+  type = string
+}
+
 variable "vm_size" {
   type = map(string)
   description = "(optional) describe your variable"
@@ -29,3 +35,6 @@ variable "vm_size" {
     5 = "s-4vcpu-8gb"
   }
 }
+
+
+# Number, Bool, string
