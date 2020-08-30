@@ -6,7 +6,7 @@ variable "vm_size" {
 variable "llave_ssh_fingerprint" {
 
 }
-
+# Creacion de una maquina virtual
 resource "digitalocean_droplet" "frontend-server" {
   image       = "ubuntu-18-04-x64"
   name        = "frontend-server"

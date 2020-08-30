@@ -1,4 +1,8 @@
+# Token de Digitalocean
 digitalocean_token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+# Nombre asignado a llave SSH en Digitalocean
 nombre_llave_ssh = "XXXXXXXXXXXXXXXXXXX"
+# Dominio importado en digitalocean por ejemplo: shankyjs.me
 domain_name = "XXXXXXXXXXXXXXXXXXXX"
+# Registro tipo A (subdominio)
 record_name = "XXXXXXXXXXXXXXXXXXXX"

@@ -1,22 +1,24 @@
+# Input variable
 variable "digitalocean_token" {
   description = "Token privado para interactuar con la API de Digitalocean"
   type = string
 } 
-
+# Input variable
 variable "domain_name" {
   description = "Nombre del dominio previamente registrado en Digitalocean"
   type = string
 }
+# Input variable
 variable "record_name" {
   description = "Nombre del registro que vamos a crear en el dominio"
   type = string
 }
-
+# Input variable
 variable "nombre_llave_ssh" {
   description = "Nombre de la llave SSH que registraremos en Digitalocean"
   type = string
 }
-
+# Extra variables
 variable "llave_ssh_fingerprint" {
   description = "En esta variable almacenaremos el fingerprint de la llave SSH."
   default = "arreeeeeeeeeeeee"

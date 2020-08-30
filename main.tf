@@ -1,7 +1,7 @@
 provider "digitalocean" {
   token = var.digitalocean_token
 }
-
+    #convencion de digital ocean     #Nombre personalizado por el user
 resource "digitalocean_ssh_key" "ssh_key_frontend" {
   name		    = var.nombre_llave_ssh
   public_key	= file("./secrets/id_rsa.pub")
