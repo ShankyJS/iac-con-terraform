@@ -1,6 +1,17 @@
 # conociendo-iac-con-terraform
 Repositorio utilizado para Charla denominada "Infraestructura como código con Terraform".
 
+## Terraform version
+
+Este proyecto fue realizado en Terraform version 
+
+````
+Terraform v0.12.18
++ provider.digitalocean v1.22.2
++ provider.null v2.1.2
++ provider.template v2.1.2
+````
+
 ## Instalación de Terraform
 
 Recomiendo mucho instalar Terraform a través de "tfenv" debido que nos permite gestionar las versiones de Terraform y es usable en MacOS, Unix based systems y Windows (Git-bash)
