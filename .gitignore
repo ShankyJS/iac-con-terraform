@@ -4,6 +4,8 @@ terraform.tfvars
 
 terraform.tfstate*
 
+.terraform*
+
 .terraform/
 
 id_rsa*

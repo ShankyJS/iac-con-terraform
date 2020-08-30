@@ -9,7 +9,7 @@ resource "digitalocean_ssh_key" "ssh_key_frontend" {
 
 module "frontend-server" {
   source = "./modules/frontend-server"
-  vm_size = var.vm_size[0]
+  vm_size = var.vm_size[5]
   llave_ssh_fingerprint = digitalocean_ssh_key.ssh_key_frontend.fingerprint
 }
 
